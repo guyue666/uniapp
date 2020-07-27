@@ -1,0 +1,41 @@
+/*
+Error: Invalid GBK character "\xE8"
+        on line 2 of uni.scss
+
+1: /**
+2:  * 这里是uni-app内置的常用样式变量
+3:  *
+4:  * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+5:  * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+6:  *
+7:  *\/
+
+Backtrace:
+uni.scss:2
+F:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.7.4/lib/sass/util.rb:1090:in `rescue in block in find_encoding_error'
+F:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.7.4/lib/sass/util.rb:1087:in `block in find_encoding_error'
+F:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.7.4/lib/sass/util.rb:1086:in `each'
+F:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.7.4/lib/sass/util.rb:1086:in `each_with_index'
+F:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.7.4/lib/sass/util.rb:1086:in `find_encoding_error'
+F:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.7.4/lib/sass/util.rb:814:in `check_sass_encoding'
+F:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.7.4/lib/sass/engine.rb:444:in `check_encoding!'
+F:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.7.4/lib/sass/engine.rb:400:in `_to_tree'
+F:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+F:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
+F:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+F:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+F:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
+F:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+F:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin.rb:82:in `update_stylesheets'
+F:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:338:in `watch_or_update'
+F:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:51:in `process_result'
+F:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
+F:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
+F:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.7.4/bin/sass:13:in `<top (required)>'
+F:/Ruby23-x64/bin/sass:22:in `load'
+F:/Ruby23-x64/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid GBK character \"\xE8\"\A         on line 2 of uni.scss\A \A 1: /**\A 2:  * 这里是uni-app内置的常用样式变量\A 3:  *\A 4:  * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量\A 5:  * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App\A 6:  *\A 7:  */"; }
